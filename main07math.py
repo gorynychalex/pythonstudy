@@ -1,7 +1,7 @@
 import math
 
-print(math.pi)
+print("Число Пи: ",math.pi)
 
-n = int(input("введите целое число"))
+n = int(input("Введите целое число: "))
 
 print("Квадратный корень из числа " + str(n) + " равно " + str(math.sqrt(n)))
