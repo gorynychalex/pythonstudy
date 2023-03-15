@@ -6,22 +6,16 @@ def add(x, y):
 def multiply(x, y):
     return x * y
 
-a = add(10,15)
 
 def newfunc(n):
     def myfunc(x):
         return n+x
     return myfunc
-new = newfunc(100)
-new(200)
 
 # Аргументы
 def func(a,b,c=2):
     return a + b + c
 
-func(1,2)
-
-func(1,2,3)
 
 # Переменное количество аргументов
 def funcVarargs(*args):
@@ -36,4 +30,10 @@ funcVarargs(1,2,3,'aaaa','bbb')
 def funcKWargs(**kwargs):
     return kwargs
 
-funcKWargs(a=1,b=2,c=3)
+if __name__ == "__main__":
+    a = add(10,15)
+    new = newfunc(100)
+    print(new(200))
+    print(func(1,2))
+    print(func(1,2,3))
+    print(funcKWargs(a=1,b=2,c=3))
