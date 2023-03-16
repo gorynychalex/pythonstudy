@@ -1,0 +1,1 @@
+﻿[{"name":"DIMM8","state":"Off","color":"Yellow","location":"Planar"},{"name":"DIMM11","state":"Off","color":"Yellow","location":"Planar"},{"name":"FAN 2","state":"Off","color":"Yellow","location":"FRU"},{"name":"DIMM6","state":"Off","color":"Yellow","location":"Planar"}]
