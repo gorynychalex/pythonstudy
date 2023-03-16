@@ -1,4 +1,7 @@
 # Функции
+print(__name__)
+
+CONSTANS="Файл с функциями"
 
 def add(x, y):
     return x + y

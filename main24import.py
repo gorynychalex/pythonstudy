@@ -1,5 +1,5 @@
 # Импорт из той же папки
-# import main22func as module_fs
+import functions as module_fs
 
 # Импорт из пакета конкретного модуля
 from mypackage.calc import *
