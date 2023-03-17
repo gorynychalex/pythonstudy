@@ -1,0 +1,3 @@
+import person
+
+person.main()
